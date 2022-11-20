@@ -1,14 +1,5 @@
 name: 🚀 Загрузка сайта на сервер
-
-on:
-  push:
-    branches: [ "main" ]
-    types: [closed]
-  pull_request:
-    branches: [ "main" ]
-    types: [closed]
-    
-  workflow_dispatch:
+on: push
 
 jobs:
   web-deploy:
