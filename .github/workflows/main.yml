@@ -12,7 +12,7 @@ on:
 
 jobs:
   web-deploy:
-    name: 🎉 Загрузка
+    name: 🎉 Загрузка файлов
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Получение файлов
