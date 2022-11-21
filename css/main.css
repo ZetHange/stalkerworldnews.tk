@@ -2,8 +2,12 @@
     background-color: rgb(48, 48, 48);
 }
 
-main {
+.body-dark {
     background-color: rgb(70, 70, 70)!important;
+
+}
+
+.main-dark {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center top;
