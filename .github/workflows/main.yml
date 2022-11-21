@@ -3,10 +3,10 @@ on: push
 
 jobs:
   web-deploy:
-    name: 🎉 Загрузка файлов
+    name: 🎉 Загрузка файлов на сервер
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Получение файлов
+    - name: 🚚 Получение файлов из репозитория
       uses: actions/checkout@v2
     
     - name: 📂 Обновление файлов на сервере
