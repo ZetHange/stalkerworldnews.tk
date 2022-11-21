@@ -1,0 +1,11 @@
+@media (min-width: 992px) {
+    .card-app {
+        width: 24%;
+    }
+}
+
+@media (max-device-width: 991px) {
+    .card-app {
+        width: 100%;
+    }
+}
