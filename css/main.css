@@ -2,6 +2,10 @@
     background-color: rgb(48, 48, 48);
 }
 
-.body-dark {
+main {
     background-color: rgb(70, 70, 70)!important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    margin-top: 5px;
 }
