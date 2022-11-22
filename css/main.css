@@ -11,6 +11,6 @@
 }
 
 .card-img-app {
-    --bs-gutter-x: 0;
-    --bs-gutter-y: 0;
+    --bs-gutter-x: 0!important;
+    --bs-gutter-y: 0!important;
 }
