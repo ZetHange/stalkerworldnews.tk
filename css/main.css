@@ -9,3 +9,8 @@
         width: 100%;
     }
 }
+
+.card-img-app {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
