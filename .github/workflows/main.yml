@@ -9,11 +9,6 @@ jobs:
     - name: 🚚 Получение файлов из репозитория
       uses: actions/checkout@v2
     
-    - name: ☄️ Переделка CSS в Inline CSS
-      uses: ZacJW/inline-css-action@1.0.0
-      with:
-        files: '["index.html", "css/*.css"]'
-    
     - name: 📂 Обновление файлов на сервере
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
