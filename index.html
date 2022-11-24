@@ -10,6 +10,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <style>
+        @media (max-device-width: 991px) {
+            .card-parent {
+                overflow: hidden;
+                overflow-x: scroll;
+                white-space: nowrap;
+            }
+            .card-parent::-webkit-scrollbar {
+                width: 0px;
+            }
+            .card-child {
+                display: inline-block;
+                vertical-align: top;
+            }
+        }
+    </style>
 </head>
 <body style="background-color: rgb(70, 70, 70)!important;">
     <header class="d-flex justify-content-center" style="background-color: rgb(48, 48, 48)!important;">
@@ -23,8 +39,8 @@
         </div>
         <div id="our-apps">
             <h3 class="text-center"><i class="fa-solid fa-file"></i> Наши проекты</h3>
-            <div class="row">
-                <div class="card col-4 card-img-app card-app bg-dark">
+            <div class="row card-parent">
+                <div class="card col-4 card-img-app card-app bg-dark card-child">
                     <img src="https://swn-store.tk/game/asp/1669130555053.png" class="card-img-top" alt="Alien Shooter Project">
                         <div class="card-body">
                             <h5>Alien Shooter Project</h5>
@@ -32,7 +48,7 @@
                             <a class="btn btn-dark position-absolute bottom-0 mb-2 start-50 translate-middle-x w-95" href="https://swn-store.tk/game/asp">Подробнее в SWN Store</a>
                         </div>
                 </div>
-                <div class="card col-4 card-img-app card-app bg-dark">
+                <div class="card col-4 card-img-app card-app bg-dark card-child">
                     <img src="https://swn-store.tk/game/as2rp/1663522869134.png" class="card-img-top" alt="Alien Shooter 2 Reloaded Project">
                         <div class="card-body">
                             <h5>Alien Shooter 2 Reloaded Project</h5>
@@ -40,7 +56,7 @@
                             <a class="btn btn-dark position-absolute bottom-0 mb-2 start-50 translate-middle-x w-95" href="https://swn-store.tk/game/as2rp">Подробнее в SWN Store</a>
                         </div>
                 </div>
-                <div class="card col-4 card-img-app card-app bg-dark">
+                <div class="card col-4 card-img-app card-app bg-dark card-child">
                     <img src="https://swn-store.tk/game/as2cp/1669130992765.png" class="card-img-top" alt="Alien Shooter Project">
                         <div class="card-body">
                             <h5>Alien Shooter 2 Conscription Project</h5>
